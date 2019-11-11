@@ -47,7 +47,7 @@ After solution one failed, I continued with my second solution.  I tried various
 
 ### My Final Approach
 
-Given my neural network's short comings, I then implemented a monte carlo algorithm.  Interestingly enough, it did not play like a human would.  Human players typically try to keep their largest tile in the corner (ATTACH IMAGE HERE) with the successively large tiles around it.  However, my monte carlo algorithm frequently kept its largest tile in the middle of the board. (ATTACH IMAGE HERE)  Nevertheless, it performed quite well.  
+Given my neural network's short comings, I then implemented a monte carlo algorithm.  Interestingly enough, it did not play like a human would.  Human players typically try to keep their largest tile in the corner ![large example](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/2048_Example_Large.png =250x250) with the successively large tiles around it.  However, my monte carlo algorithm frequently kept its largest tile in the middle of the board.  Nevertheless, it performed quite well.  
 
 ### Monte Carlo Algorithm Results:
 
