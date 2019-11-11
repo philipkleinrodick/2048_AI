@@ -56,3 +56,5 @@ ATTACH TABLE HERE WITH NUMBER OF RANDOM GAMES, SCORE, LARGEST TILE
 ### Future work
 
 I would like to continue playing with my deep q learning approach.  I believe its current short comings are due to too little training and potentially an overly simplistic reward function.  I also can toy with different neural network architectures ( the number of neurons, hidden layers, activation functions, etc).
+
+Regarding the monte carlo approach, I would like to implement multiprocessing or even rewrite my code in C++ in order to speed up my code.  This will allow me to increase the number of random games ran per move.
