@@ -2,7 +2,7 @@
 
 ###### Final Project: Built an AI to play the game 2048 using both monte carlo and neural network methods
 
-[Readme_Images/2048_Example]
+![2048 Example](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/2048_Example.png)
 
 
 ## Objectives
@@ -51,7 +51,7 @@ Given my neural network's short comings, I then implemented a monte carlo algori
 
 ### Monte Carlo Algorithm Results:
 
-ATTACH TABLE HERE WITH NUMBER OF RANDOM GAMES, SCORE, LARGEST TILE 
+![Statistics Table](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/Monte_Carlo_Statistics.png)
 
 ### Future work
 
