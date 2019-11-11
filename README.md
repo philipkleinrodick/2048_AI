@@ -2,7 +2,7 @@
 
 ###### Final Project: Built an AI to play the game 2048 using both monte carlo and neural network methods
 
-![2048 Example](Readme_Images/2048_Example)
+![2048 Example](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/2048_Example.png)
 
 
 ## Objectives
