@@ -47,9 +47,11 @@ After solution one failed, I continued with my second solution.  I tried various
 
 ### My Final Approach
 
-Given my neural network's short comings, I then implemented a monte carlo algorithm.  Interestingly enough, it did not play like a human would.  Human players typically try to keep their largest tile in the corner ![large example](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/2048_Example_Large.png =250x250) with the successively large tiles around it.  However, my monte carlo algorithm frequently kept its largest tile in the middle of the board.  Nevertheless, it performed quite well.  
+Given my neural network's short comings, I then implemented a monte carlo algorithm.  Interestingly enough, it did not play like a human would.  Human players typically try to keep their largest tile in the corner <img src="https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/2048_Example_Large.png" alt="Large example game" width="250"/> with the successively large tiles around it.  However, my monte carlo algorithm frequently kept its largest tile in the middle of the board.  Nevertheless, it performed quite well.  
 
 ### Monte Carlo Algorithm Results:
+
+I have ran my monte carlo algorithm using 10 random games per move and 100 random games per move.
 
 ![Statistics Table](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/Monte_Carlo_Statistics.png)
 
@@ -57,4 +59,4 @@ Given my neural network's short comings, I then implemented a monte carlo algori
 
 I would like to continue playing with my deep q learning approach.  I believe its current short comings are due to too little training and potentially an overly simplistic reward function.  I also can toy with different neural network architectures ( the number of neurons, hidden layers, activation functions, etc).
 
-Regarding the monte carlo approach, I would like to implement multiprocessing or even rewrite my code in C++ in order to speed up my code.  This will allow me to increase the number of random games ran per move.
+Regarding the monte carlo approach, I would like to implement multiprocessing or even rewrite my code in C++ in order to speed up my code.  This will allow me to increase the number of random games ran per move.  I also would like to try implementing a depth limit where the random games will end after n moves for some n.
