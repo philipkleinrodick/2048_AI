@@ -4,7 +4,6 @@
 
 INSERT 2048 PICTURE HERE
 
-## Summary
 
 ## Objectives
 * Build an artificial intelligence to play the game 2048
