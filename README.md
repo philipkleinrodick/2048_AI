@@ -8,7 +8,7 @@
 ## Objectives
 * Build an artificial intelligence to play the game 2048
 * Build an artificial intelligence to play the game 2048 WELL (ie achieve a high score)
-* Implement a deep q neural network
+* Implement a deep q neural network 
 
 ### How to play 2048
 
@@ -35,7 +35,7 @@ Fortunately, I had a deep learning library to turn to in Keras-RL (https://githu
 
 #### A Problem and Attempted Solutions
 
-Unfortunately, Keras-RL requires one to feed as input all possible actions, not just legal actions.  That is, for the given board state (INSERT PICTURE HERE), the deep q agent would be fed the options Left, Right, Up, and Down instead of just (INSERT LEGAL OPTIONS HERE).  And once the agent is fully trained, it will always give the same output for a given input, leading to an infinite loop of the agent continually playing an illegal move, arriving at the same board state, and trying to play the same illegal move again.
+Unfortunately, Keras-RL requires one to feed as input all possible actions, not just legal actions.  That is, for the given board state <img src="https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/Illegal_Example.png" alt="Legal Options Example" width="200"/> , the deep q agent would be fed the options Left, Right, Up, and Down instead of just Left, Right, and Up.  And once the agent is fully trained, it will always give the same output for a given input, leading to an infinite loop of the agent continually playing an illegal move, arriving at the same board state, and trying to play the same illegal move again.
 
 * Solution One: give a negative reward for illegal moves.  
 This solution succeeds in greatly limiting the number of illegal moves the agent makes.  Then for the illegal moves, alternative approaches can choose a move to be played instead of the agent.  However, this approach has a major problem.  The agent puts an emphasis on making legal moves over optimal moves.
