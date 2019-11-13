@@ -51,6 +51,10 @@ Given my neural network's short comings, I then implemented a monte carlo algori
 
 ### Monte Carlo Algorithm Results:
 
+Here is a gif of my monte carlo alogirthm running.  The scores above the board indicate which move will be played next based on the random games played.
+
+<img src="https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/2048_GIF.gif" alt="Large example game" width="250"/>
+
 I have ran my monte carlo algorithm using 10 random games per move and 100 random games per move.  Note the games were run from the same starting position for both categories.
 
 ![Statistics Table](https://github.com/philipkleinrodick/2048_AI/blob/master/Readme_Images/Monte_Carlo_Statistics.png)
